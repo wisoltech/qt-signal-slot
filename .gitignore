@@ -1,1 +1,6 @@
+signal_slot
+Makefile
+*.o
+moc_*
+qrc_*
 signal_slot.pro.user
