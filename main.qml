@@ -17,7 +17,7 @@ Window {
     MouseArea {
         anchors.fill: parent
         onClicked: {
-            receiver.sendToCpp(42);
+            receiver.receiveFromQml(42);
         }
     }
 

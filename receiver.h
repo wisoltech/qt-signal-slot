@@ -13,7 +13,7 @@ signals:
     void sendToQml(int count);
 
 public slots:
-    void sendToCpp(int count);
+    void receiveFromQml(int count);
 
 };
 

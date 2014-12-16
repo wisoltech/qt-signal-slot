@@ -6,6 +6,6 @@ Receiver::Receiver(QObject *parent) :
 {
 }
 
-void Receiver::sendToCpp(int count) {
-    qDebug() << "Sent from QML to C++" << count;
+void Receiver::receiveFromQml(int count) {
+    qDebug() << "Received in C++ from QML:" << count;
 }
