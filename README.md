@@ -31,6 +31,6 @@ Alternatively, the project can be loaded into Qt Creator and started from there.
 More Documentation
 ------------------
 
-This source code belongs to the an [article][1].
+This source code belongs to an [article][1].
 
 [1]: http://wisol.ch/w/articles/2014-12-15-qt-signal-slots-qml-cpp/
