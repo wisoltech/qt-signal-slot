@@ -1,11 +1,12 @@
-qt-signal-slot
-==============
+Connect Qt QML and C++
+======================
 
 Overview
 --------
 
-This program demonstrate how QML and C++ can be connected through Qt signals
-and slots.
+This program demonstrates how QML and C++ can be connected through Qt signals
+and slots. It does this through embedding C++ code as a context property in QML
+rather than explicitly connecting signals and slots.
 
 When the program is started, the C++ part send a signal to QML, including a
 parameter. This signal is only sent once. When the user clicks on the window
@@ -31,6 +32,6 @@ Alternatively, the project can be loaded into Qt Creator and started from there.
 More Documentation
 ------------------
 
-This source code belongs to an [article][1].
+This source code belongs to an [article][1] on our website.
 
 [1]: http://wisol.ch/w/articles/2014-12-15-qt-signal-slots-qml-cpp/
